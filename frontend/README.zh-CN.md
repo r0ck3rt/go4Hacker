@@ -102,6 +102,15 @@ Modern browsers and IE10.
 | --- | --- | --- | --- | --- |
 | IE10, Edge | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
+## fix bug：TypeError: token.type.endsWith is not a function
+```
+1、change "babel-eslint": "^8.2.2",
+2、rm -rf node_modules
+3、yarn install
+4、yarn run build
+
+```
+
 
 ## Contributors
 
